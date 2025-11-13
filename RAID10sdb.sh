@@ -5,3 +5,5 @@ mkfs.ext4 /dev/md10
 mkdir /mnt/raid10
 
 mount /dev/md10 /mnt/raid10
+
+echo "RAID10 done"
