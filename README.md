@@ -9,3 +9,4 @@
 4) Публикация через Nginx:
    https://github.com/UtochkaJZX100/Professional-homeworks/blob/eff17011ef4064462333108244a834b4852f3617/5.png
    https://github.com/UtochkaJZX100/Professional-homeworks/blob/eff17011ef4064462333108244a834b4852f3617/6.png
+   https://github.com/UtochkaJZX100/Professional-homeworks/blob/eab6030c99bd56950077b9add7bfdb5f04edd437/7.png
