@@ -64,5 +64,5 @@ awk '{print $9}' "$OUTPUT_FILE" | sort | uniq -c | sort -nr > /home/otus/http_co
 #Создаём единый отчёт 
 cat /home/otus/max_zapros_ip /home/otus/max_zapros_url /home/otus/errors /home/otus/http_codes > /home/otus/otchet
 
-№Отправка письма на почту через почтовый клиент "mutt"
+#Отправка письма на почту через почтовый клиент "mutt"
 echo "Ежечасный отчёт по работе nginx" | mutt -s "Мониторинг nginx" -a /home/otus/otchet -- mav@ves.city
