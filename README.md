@@ -2,3 +2,7 @@
    https://github.com/UtochkaJZX100/Professional-homeworks/blob/82cf8aa897044b5fdfa4847fa7f4f5b2d6665cd1/otchet.sh
 
 2) Постановка в cron:
+   https://github.com/UtochkaJZX100/Professional-homeworks/blob/693ddf469c8293b1ece7e70ff1ad158fcd32db47/1.png
+
+3) Вывод финального отчёта:
+   https://github.com/UtochkaJZX100/Professional-homeworks/blob/693ddf469c8293b1ece7e70ff1ad158fcd32db47/2.png
