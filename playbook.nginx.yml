@@ -1,0 +1,35 @@
+- name: Nginx install on 8080
+  hosts: localhost
+  connection: local
+  become: yes
+  vars:
+    nginx8080: 8080
+  #Присвоение значения порта переменной
+
+  tasks:
+    - name: Install Nginx by apt
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+  #Установка nginx
+
+    - name: Config from templates
+      template:
+        src: templates/nginx.conf.j2
+        dest: /etc/nginx/conf.d/custom.conf
+      notify: Restart Nginx
+    #Подключение шаблона конфига, с указанием на переменную nginx8080
+
+    - name: Nginx is enabled status in systemd
+      systemd:
+        name: nginx
+        enabled: yes
+    #Подключение nginx в автозапуск
+
+  handlers:
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
+  #Перезапуск nginx
